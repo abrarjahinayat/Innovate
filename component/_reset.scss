@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&display=swap');
+
+.container{
+    max-width: 1170px;
+}
+@mixin button($theme: #1BBF00) {
+    background: $theme;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 14px 28px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans", serif;
+    line-height: 200%;
+  }
+@mixin button_1($theme: #1BBF00) {
+    background: $theme;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 20px 40px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: "Open Sans", serif;
+  }

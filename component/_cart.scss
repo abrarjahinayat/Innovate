@@ -1,0 +1,88 @@
+#cart{
+    background-color: #F6F5FF;
+    padding: 100px 0;
+    .row{
+        .item_1{
+            h3{
+                font-size: 48px;
+                font-weight: 700;
+                color: #141135;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 400;
+                width: 350px;
+                color: #6C7D93;
+                line-height: 32px;
+                letter-spacing: 0.5px;
+                margin-top: 20px;
+            }
+            button{
+                @include button_1;
+                margin-top: 60px;
+            }
+        }
+        .item{
+            padding: 49px 41px;
+            background-color: #FFFFFF;
+            text-align: center;
+            border-radius: 20px;
+            transition: .4s;
+            &:hover{
+                cursor: pointer;
+                background-color: #6B62C5;
+                h3{
+                    color: #FAFAFE;
+                }
+                p{
+                    color: #E6E5F3;
+                }
+                .btn1{
+                    color: #F4F4F5;
+                    span{
+                        background-color: rgb(255, 255, 255,.3);
+                    }
+                }
+            }
+            h3{
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 36px;
+                color: #141135;
+                margin-top: 32px;
+              
+            }
+            p{
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 30px;
+                color: #726E9E;
+                margin-top: 32px;
+                font-family: "Paprika", serif;
+                margin-top: 16px;
+                width: 257px;
+                margin: 0 auto;
+            }
+            .btn1{
+                font-size: 18px;
+                font-weight: 700;
+                color: #141135;
+                line-height: 24px;
+                border: none;
+                margin-top: 13px;
+                background-color: transparent;
+             
+                 span {
+                    border-radius: 0px 100px 100px 0;
+                    background-color: rgba(27, 191, 0, 0.3);
+                    padding: 5px 15px;
+                    position: relative;
+                    right: 20px;
+                }
+            }
+        }
+    }
+    .row_2{
+        margin-top: 20px;
+    }
+}

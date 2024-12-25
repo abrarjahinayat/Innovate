@@ -1,0 +1,32 @@
+#count{
+    padding: 286px 0;
+    position: relative;
+    background-color: #F9F9FB;
+    .row{
+        .item{
+            text-align: center;
+         &:hover{
+            -webkit-box-shadow: 2px 0px 0px 0px rgba(79,88,95,1);
+            -moz-box-shadow: 2px 0px 0px 0px rgba(79,88,95,1);
+            box-shadow: 2px 0px 0px 0px rgba(79,88,95,1);
+         }
+            h2{
+                font-size: 64px;
+                font-weight: 800;
+                color: #1BBF00;
+                line-height: 68px;
+            }
+            h3{
+                font-size: 30px;
+                font-weight: 700;
+                color: #141135;
+                line-height: 40px;
+            }
+        }
+    }
+    img{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

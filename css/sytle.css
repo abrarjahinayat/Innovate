@@ -447,4 +447,38 @@ header nav button {
   color: #726E9E;
   font-family: "Paprika", serif;
   margin-top: 5px;
+}
+#about #btn_prev {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -265px;
+  left: -20px;
+}
+#about #btn_prev .icon {
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #1BBF00;
+  color: #ffffff;
+  justify-content: center;
+  line-height: 50px;
+}
+#about #btn_next {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -302px;
+  left: 1130px;
+}
+#about #btn_next .icon {
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #1BBF00;
+  color: #ffffff;
+  justify-content: center;
+  line-height: 50px;
 }/*# sourceMappingURL=sytle.css.map */

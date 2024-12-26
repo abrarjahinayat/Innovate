@@ -11,12 +11,13 @@
         .item{
           
          .item_h4{
+            transform: scale(0.9);
             transition: 0.4s;
             display: flex;
             justify-content: space-around;
             align-items: center;
             margin-bottom: 20px;
-            transform: scale(0.9);
+         
             h4{  
                 font-size: 18px;
                 color: #726E9E;

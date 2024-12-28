@@ -5,11 +5,12 @@
     .row{
         .item{
             text-align: center;
-         &:hover{
-            -webkit-box-shadow: 2px 0px 0px 0px rgba(79,88,95,1);
-            -moz-box-shadow: 2px 0px 0px 0px rgba(79,88,95,1);
-            box-shadow: 2px 0px 0px 0px rgba(79,88,95,1);
-         }
+            border-right: 2px solid black;
+        //  &:hover{
+        //     -webkit-box-shadow: 2px 0px 0px 0px rgba(79,88,95,1);
+        //     -moz-box-shadow: 2px 0px 0px 0px rgba(79,88,95,1);
+        //     box-shadow: 2px 0px 0px 0px rgba(79,88,95,1);
+        //  }
             h2{
                 font-size: 64px;
                 font-weight: 800;

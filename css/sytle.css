@@ -106,9 +106,7 @@ header nav button {
 }
 #count .row .item {
   text-align: center;
-}
-#count .row .item:hover {
-  box-shadow: 2px 0px 0px 0px rgb(79, 88, 95);
+  border-right: 2px solid black;
 }
 #count .row .item h2 {
   font-size: 64px;
@@ -154,8 +152,8 @@ header nav button {
   width: 60%;
 }
 #choose .row .item .item_h4:hover {
-  width: 568px;
-  height: 130px;
+  padding: 35px 0;
+  box-sizing: border-box;
   border-radius: 12px;
   box-shadow: 10px 30px 60px 0px rgb(162, 169, 192);
   cursor: pointer;

@@ -14,14 +14,7 @@
                 width: 449px;
                 font-family: "Nunito", serif;
             }
-            h6{
-                font-size: 18px;
-                font-weight: 400;
-                color: #FEFEFE;
-                line-height: 180%;
-                width: 315px;
-                margin-top: 190px;
-            }
+           
         }
         .item_list{
             margin-left: 100px;
@@ -47,14 +40,14 @@
                 }
                 
             }
-            h6{
-                font-size: 18px;
-                font-weight: 400;
-                color: #FEFEFE;
-                line-height: 180%;
-                width: 315px;
-                margin-top: 190px;
-            }
+            // h6{
+            //     font-size: 18px;
+            //     font-weight: 400;
+            //     color: #FEFEFE;
+            //     line-height: 180%;
+            //     width: 315px;
+            //     margin-top: 190px;
+            // }
         }
         .item_list_1{
             margin-left: 190px;
@@ -81,4 +74,12 @@
             }
         }
     }
+     h6{
+                font-size: 18px;
+                font-weight: 400;
+                color: #FEFEFE;
+                line-height: 180%;
+                width: 315px;
+                margin-top: 100px;
+            }
 }

@@ -567,14 +567,6 @@ header nav button {
   width: 449px;
   font-family: "Nunito", serif;
 }
-#footer .row .item h6 {
-  font-size: 18px;
-  font-weight: 400;
-  color: #FEFEFE;
-  line-height: 180%;
-  width: 315px;
-  margin-top: 190px;
-}
 #footer .row .item_list {
   margin-left: 100px;
 }
@@ -599,14 +591,6 @@ header nav button {
   font-family: "Nunito", serif;
   margin-bottom: 30px;
 }
-#footer .row .item_list h6 {
-  font-size: 18px;
-  font-weight: 400;
-  color: #FEFEFE;
-  line-height: 180%;
-  width: 315px;
-  margin-top: 190px;
-}
 #footer .row .item_list_1 {
   margin-left: 190px;
 }
@@ -630,4 +614,12 @@ header nav button {
   text-align: start;
   font-family: "Nunito", serif;
   margin-bottom: 30px;
+}
+#footer h6 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FEFEFE;
+  line-height: 180%;
+  width: 315px;
+  margin-top: 100px;
 }/*# sourceMappingURL=sytle.css.map */

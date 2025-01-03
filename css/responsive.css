@@ -18,6 +18,7 @@
         color: #ffffff;
         font-size: 30px;
     }
+  
     .navbar-toggler {
         color: rgba(255, 246, 246, 0.65);
         border: var(--bs-border-width) solid rgba(255, 255, 255, 0.15);
@@ -47,6 +48,9 @@
     #banner .bannertwo {
         display: none;
     }
+    #banner .overlay .banner__text button {
+        margin-top: 10px;
+    }
     /* ==========banner part responsive end ============= */
     /* ==========count part responsive start ============= */
     #count {
@@ -58,6 +62,16 @@
     }
     #count .item{
         margin-bottom: 30px;
+    }
+    #count .row .item h2 {
+        font-size: 40px;
+    }
+    #count .row .item h3 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    #count img {
+        width: 100px;
     }
     /* ==========count part responsive end ============= */
     /* ==========choose part responsive start ============= */
@@ -89,6 +103,9 @@
     #choose .row .item_2 button {
         padding: 15px 30px;
         font-size: 16px;
+    }
+    #choose .row .item .item_h4 h4 {
+        width: 73%;
     }
     /* ==========choose part responsive end ============= */
     /* ==========cart part responsive start ============= */
@@ -146,6 +163,9 @@
         width: 100%;
         position: relative;
     }
+    #impact .img_vector {
+        width: 100px;
+    }
     /* ==========impact part responsive end ============= */
     /* ==========plan part responsive start ============= */
     #plan {
@@ -178,7 +198,7 @@
         padding: 0px 0;
     }
     #about h2 {
-        font-size: 36px;
+        font-size: 30px;
     }
     #about .row .item .img_wrapper .img_star {
         margin: 20px auto;
@@ -200,7 +220,7 @@
         font-size: 14px;
         line-height: 16px;
     }
-    #about #btn_prev .icon {
+    /* #about #btn_prev .icon {
      display: none;
     }
     #about #btn_next .icon {
@@ -211,6 +231,16 @@
     }
     #about #btn_next{
      display: none;
+    } */
+    #about #btn_next {
+        position: absolute;
+        top: 35%;
+        left: 84%;
+    }
+    #about #btn_prev {
+        position: absolute;
+        top: 35%;
+        left: 0%;
     }
     /* =========== about part responsive end ============= */
     /* =========== news part responsive start ============= */
@@ -247,6 +277,10 @@
         margin-bottom: 15px;
         position: relative;
     }
+    #news .img_vector {
+        left: 0px;
+        width: 100px;
+    }
     /* =========== news part responsive end ============= */
     /* =========== footer part responsive start ============= */
     #footer {
@@ -278,7 +312,7 @@
         margin-top: 10px;
     }
     #footer .row .item_list_1 ul li {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 10px;
     }
     #footer .row .item_list h4 {
@@ -288,7 +322,7 @@
         margin-top: 10px;
     }
     #footer .row .item_list ul li {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 10px;
     }
     #footer h6 {
@@ -296,6 +330,9 @@
         line-height: 120%;
         width: auto;
         margin-top: 50px;
+    }
+    #footer .row .item_list {
+        margin-left: 0px;
     }
     /* =========== footer part responsive end ============= */
 }
@@ -319,6 +356,7 @@
         color: #ffffff;
         font-size: 30px;
     }
+  
     .navbar-toggler {
         color: rgba(255, 246, 246, 0.65);
         border: var(--bs-border-width) solid rgba(255, 255, 255, 0.15);
@@ -348,6 +386,9 @@
     #banner .bannertwo {
         display: none;
     }
+    #banner .overlay .banner__text button {
+        margin-top: 10px;
+    }
     /* ==========banner part responsive end ============= */
     /* ==========count part responsive start ============= */
     #count {
@@ -359,6 +400,16 @@
     }
     #count .item{
         margin-bottom: 30px;
+    }
+    #count .row .item h2 {
+        font-size: 40px;
+    }
+    #count .row .item h3 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    #count img {
+        width: 100px;
     }
     /* ==========count part responsive end ============= */
     /* ==========choose part responsive start ============= */
@@ -390,6 +441,9 @@
     #choose .row .item_2 button {
         padding: 15px 30px;
         font-size: 16px;
+    }
+    #choose .row .item .item_h4 h4 {
+        width: 73%;
     }
     /* ==========choose part responsive end ============= */
     /* ==========cart part responsive start ============= */
@@ -447,6 +501,9 @@
         width: 100%;
         position: relative;
     }
+    #impact .img_vector {
+        width: 100px;
+    }
     /* ==========impact part responsive end ============= */
     /* ==========plan part responsive start ============= */
     #plan {
@@ -479,7 +536,7 @@
         padding: 0px 0;
     }
     #about h2 {
-        font-size: 36px;
+        font-size: 30px;
     }
     #about .row .item .img_wrapper .img_star {
         margin: 20px auto;
@@ -548,6 +605,10 @@
         margin-bottom: 15px;
         position: relative;
     }
+    #news .img_vector {
+        left: 0px;
+        width: 100px;
+    }
     /* =========== news part responsive end ============= */
     /* =========== footer part responsive start ============= */
     #footer {
@@ -579,7 +640,7 @@
         margin-top: 10px;
     }
     #footer .row .item_list_1 ul li {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 10px;
     }
     #footer .row .item_list h4 {
@@ -589,7 +650,7 @@
         margin-top: 10px;
     }
     #footer .row .item_list ul li {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 10px;
     }
     #footer h6 {
@@ -597,6 +658,9 @@
         line-height: 120%;
         width: auto;
         margin-top: 50px;
+    }
+    #footer .row .item_list {
+        margin-left: 0px;
     }
     /* =========== footer part responsive end ============= */
 }
